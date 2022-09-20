@@ -1,0 +1,20 @@
+spring:
+    rabbitmq:
+        host: 92.255.76.33
+        port: 5672
+        username: guest
+        password: guest
+    data:
+        rest:
+            base-path: /api
+    datasource:
+        driverClassName: com.mysql.cj.jdbc.Driver
+        username: gen_user
+        password: 19ejl95fk1
+        jdbcUrl: jdbc:mysql://85.193.88.137:3306/default_db
+    logging:
+        level:
+            org.springframework: INFO
+server:
+  port: 8080
+
